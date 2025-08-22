@@ -10,6 +10,9 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.json.JSONArray;
 import org.json.JSONObject;
+
+import com.mycompany.movietrailerapp.config.ApiKeys;
+
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import jakarta.servlet.annotation.WebServlet;
@@ -19,9 +22,9 @@ import jakarta.servlet.annotation.WebServlet;
 public class TrailerServlet extends HttpServlet {
     
     private static final Logger LOGGER = Logger.getLogger(TrailerServlet.class.getName());
-    private static final String YOUTUBE_API_KEY = "AIzaSyCzvwLpyN4uBuXgirSuNmrCOo7kco6Wc30";
+    private static final String YOUTUBE_API_KEY = ApiKeys.YOUTUBE_API_KEY;
     private static final String YOUTUBE_SEARCH_URL = "https://www.googleapis.com/youtube/v3/search";
-    private static final String TMDB_API_KEY = "6a9daee329adb7a4eefa450d1270aee7";
+    private static final String TMDB_API_KEY = ApiKeys.TMDB_API_KEY;
     private static final String TMDB_BASE_URL = "https://api.themoviedb.org/3";
     private static final int API_TIMEOUT_MS = 5000;
     private static final int MAX_RETRIES = 2;
