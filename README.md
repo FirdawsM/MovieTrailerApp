@@ -78,4 +78,4 @@ To use the MovieTrailerApp, follow the deployment instructions above.
 
 ---
 
-Enjoy exploring movie trailers and managing your
+Enjoy exploring movie trailers and managing your favorites!
