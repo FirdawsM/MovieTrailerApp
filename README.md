@@ -37,7 +37,14 @@ pom.xml                # Maven build file
 README.md              # This file
 ```
 
-## Setup Instructions
+## Deployment & Usage
+
+**Note:**  
+This project is a backend Java web application and is **not intended to run directly on GitHub Pages**.  
+GitHub Pages only displays static files (like this README).  
+To run the app, you need to build and deploy it to a servlet container (such as Tomcat).
+
+### Setup Instructions
 
 1. **Clone the repository**
 2. **Create the MySQL database and tables**  
@@ -62,6 +69,12 @@ README.md              # This file
 ## License
 
 MIT License
+
+---
+
+**Note:**  
+If you visit the GitHub Pages site for this repository, you will only see this README file.  
+To use the MovieTrailerApp, follow the deployment instructions above.
 
 ---
 
