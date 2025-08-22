@@ -73,7 +73,7 @@ MIT License
 ---
 
 **Note:**  
-If you visit the GitHub Pages site for this repository, you will only see this README file.  
+
 To use the MovieTrailerApp, follow the deployment instructions above.
 
 ---
