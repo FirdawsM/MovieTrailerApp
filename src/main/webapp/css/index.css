@@ -1,0 +1,76 @@
+/* index.css - Hero section and welcome styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #181818;
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #111;
+  padding: 18px 40px;
+}
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e50914;
+  letter-spacing: 2px;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 18px;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+.nav-links a:hover, .nav-links a.active {
+  color: #e50914;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 70vh;
+  background: linear-gradient(120deg, #1e1e1e 60%, #e50914 100%);
+  text-align: center;
+  padding: 60px 20px 40px 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 18px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.hero p {
+  font-size: 1.3rem;
+  color: #ccc;
+  margin-bottom: 32px;
+}
+.hero .btn-primary {
+  background: #e50914;
+  color: #fff;
+  border: none;
+  padding: 16px 38px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 2px 12px rgba(229,9,20,0.15);
+  transition: background 0.2s;
+  text-decoration: none;
+  display: inline-block;
+}
+.hero .btn-primary:hover {
+  background: #b0060f;
+}
+.footer {
+  text-align: center;
+  color: #888;
+  font-size: 1rem;
+  padding: 30px 0 10px 0;
+  background: #111;
+  margin-top: 40px;
+}
